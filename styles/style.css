@@ -313,6 +313,10 @@ ol {
   text-decoration: underline;
 }
 
+.content__card-link:focus {
+  outline: none;
+}
+
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
@@ -330,9 +334,7 @@ ol {
   text-underline-offset: 1px;
 }
 
-.content__card-link:focus {
-  outline: none;
-}
+
 
 .content__list-item {
   padding: 3px;
